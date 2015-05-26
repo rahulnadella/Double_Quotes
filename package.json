@@ -1,0 +1,39 @@
+{
+  "name": "Double_Quotes",
+  "version": "1.0.0",
+  "description": "Convert matching single-quotes to double-quotes",
+  "license": "MIT",
+  "repository": "https://github.com/rahulnadella/Double_Quotes",
+  "author": {
+    "name": "Rahul Nadella",
+    "email": "rahulnadella@yahoo.com",
+    "url": "http://rahulnadella.com",
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "quotes",
+    "quote",
+    "double",
+    "doublequotes",
+    "double-quotes",
+    "text",
+    "convert",
+    "string",
+    "code",
+    "matching",
+    "replace"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
