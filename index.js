@@ -7,9 +7,9 @@ module.exports = function (str)
   */
   return str.replace(/(?:\\*)?'([^'\\]*\\.)*[^']*'/g, function (match)
   {
-          return match
-            			.replace(/\\'/g, '\'')
-            			.replace(/([^\\])"/g, '$1\\\"')
-            			.replace(/^'|'$/g, '"');
+    return match
+            .replace(/\\'/g, '\'')  
+            .replace(/([^\\])"/g, '$1\\\"')
+            .replace(/^'|'$/g, '"');
   });
 };
