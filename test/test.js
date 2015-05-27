@@ -1,6 +1,6 @@
 'use strict'
 var assert = require('assert');
-var double_quotes = require('./');
+var double_quotes = require('../');
 
 /*
 Function to test the Double_Quotes converts a literal with single-quotes to double-quotes
